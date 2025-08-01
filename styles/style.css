@@ -54,6 +54,7 @@ body {
   background-image: url("/images/bg.jpg"); /* مسیر عکس بک‌گراند */
   background-size: cover;
   background-position: center;
+  background-attachment: fixed; /* این خط پارالاکس رو فعال می‌کنه */
   overflow: hidden;
 }
 
