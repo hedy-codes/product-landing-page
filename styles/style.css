@@ -51,10 +51,10 @@ body {
   text-align: center;
   height: 90vh;
   color: #fff;
-  background-image: url("/images/bg.jpg"); /* مسیر عکس بک‌گراند */
+  background-image: url("/images/bg.jpg");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed; /* این خط پارالاکس رو فعال می‌کنه */
+  background-attachment: fixed;
   overflow: hidden;
 }
 
@@ -189,12 +189,11 @@ body {
   width: 24px;
   height: 24px;
   margin-right: 1rem;
-  filter: brightness(0.3);
-  transition: filter 0.3s ease;
+  transition: all 0.2s ease;
 }
 
 .footer-social a:hover img {
-  filter: brightness(0.6);
+  transform: scale(1.1);
 }
 
 .footer-bottom {
