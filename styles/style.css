@@ -95,6 +95,8 @@ body {
   background-color: #5b422c;
 }
 
+/* products card style */
+
 .products {
   padding: 4rem 2rem;
   text-align: center;
@@ -145,6 +147,32 @@ body {
 .product-card p {
   font-size: 0.95rem;
   color: #5b4a3b;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.price {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #4e3b2c;
+}
+
+.btn-buy {
+  display: inline-block;
+  background-color: #4e3b2c;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+.btn-buy:hover {
+  background-color: #7b5b44;
 }
 
 .footer {
