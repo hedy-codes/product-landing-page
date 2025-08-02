@@ -146,8 +146,11 @@ body {
   position: absolute;
   top: 12px;
   left: 12px;
-  animation: pulse 2s infinite;
   letter-spacing: 0.5px;
+}
+
+.product-card:hover .badge {
+  animation: pulse 2s infinite;
 }
 
 @keyframes pulse {
@@ -192,6 +195,11 @@ body {
   font-size: 1.1rem;
   font-weight: bold;
   color: #4e3b2c;
+  animation: glow 1.6s infinite ease-in-out;
+}
+
+.product-card:hover .price {
+  animation: blink-glow 1.6s infinite ease-in-out;
 }
 
 .btn-buy {
@@ -263,4 +271,14 @@ body {
   color: #5a4b3b;
   border-top: 1px solid #d4bfa2;
   padding-top: 1rem;
+}
+
+/* درخشش متناوب */
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 2px #bca68c, 0 0 4px #bca68c;
+  }
+  10% {
+    text-shadow: 0 0 8px #e0c79a, 0 0 12px #d3b281;
+  }
 }
