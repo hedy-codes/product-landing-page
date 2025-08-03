@@ -31,15 +31,21 @@ body {
   gap: 1.5rem;
 }
 
-.nav-links a {
-  text-decoration: none;
-  color: #4e3b2c;
-  font-weight: bold;
-  transition: color 0.3s ease;
+.nav-icon {
+  margin-right: 4px;
+  vertical-align: middle;
 }
 
-.nav-links a:hover {
-  color: #7a5c3d;
+.nav-links a {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #4e3b2c;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
 }
 
 .hero {
