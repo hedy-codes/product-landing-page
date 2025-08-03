@@ -48,6 +48,26 @@ body {
   transition: color 0.2s ease;
 }
 
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 1px;
+  background-color: #65482b;
+  transition: width 0.4s ease;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+.nav-links a:hover {
+  color: #65482b;
+  animation: glow 0.9s infinite;
+}
+
 .hero {
   display: flex;
   justify-content: center;
