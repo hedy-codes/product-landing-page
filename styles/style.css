@@ -308,3 +308,53 @@ body {
     text-shadow: 0 0 8px #e0c79a, 0 0 12px #d3b281;
   }
 }
+
+/* استایل سوییچ حالت تاریک هماهنگ با تم گیاهی */
+.switch {
+  display: inline-block;
+  width: 52px;
+  height: 28px;
+  position: relative;
+  margin-left: 1rem;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #eab676; /* رنگ عسلی ملایم در حالت خاموش */
+  transition: 0.4s;
+  border-radius: 34px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+}
+
+/* حالت روشن (دارک مود فعال) */
+input:checked + .slider {
+  background-color: #a8d5ba; /* سبز نعنایی */
+}
+
+input:checked + .slider:before {
+  transform: translateX(24px);
+}
