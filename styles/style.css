@@ -357,3 +357,9 @@ input:checked + .slider {
 input:checked + .slider:before {
   transform: translateX(24px);
 }
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 1.5rem;
+}
