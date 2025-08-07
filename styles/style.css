@@ -378,7 +378,9 @@ input:checked + .slider:before {
   background-color: #bfa07f;
   transform: scale(1.1);
 }
-
+.footer-newsletter {
+  margin-bottom: 2rem;
+}
 .footer-newsletter input {
   padding: 0.5rem;
   border: none;
