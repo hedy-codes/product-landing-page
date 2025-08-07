@@ -401,3 +401,12 @@ input:checked + .slider:before {
 .footer-newsletter button:hover {
   background-color: #7a5c3d;
 }
+
+.footer-brand h3::after {
+  content: "";
+  display: block;
+  width: 15rem;
+  height: 2px;
+  background-color: #4e3b2c;
+  margin-top: 0.5rem;
+}
