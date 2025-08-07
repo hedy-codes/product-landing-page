@@ -282,7 +282,6 @@ body {
 .footer-social a img {
   width: 24px;
   height: 24px;
-  margin-right: 1rem;
   transition: all 0.2s ease;
 }
 
@@ -362,4 +361,20 @@ input:checked + .slider:before {
   flex: 1;
   min-width: 200px;
   margin-bottom: 1.5rem;
+}
+
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #d4bfa2;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-social a:hover {
+  background-color: #bfa07f;
+  transform: scale(1.1);
 }
