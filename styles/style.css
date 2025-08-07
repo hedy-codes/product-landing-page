@@ -331,7 +331,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #eab676; /* رنگ عسلی ملایم در حالت خاموش */
+  background-color: #eab676;
   transition: 0.4s;
   border-radius: 34px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
@@ -350,9 +350,8 @@ body {
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
 }
 
-/* حالت روشن (دارک مود فعال) */
 input:checked + .slider {
-  background-color: #a8d5ba; /* سبز نعنایی */
+  background-color: #a8d5ba;
 }
 
 input:checked + .slider:before {
