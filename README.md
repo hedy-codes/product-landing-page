@@ -20,6 +20,7 @@ A beautifully designed front-end web project for a fictional herbal tea store. B
 
 - HTML5
 - CSS3 (Flexbox, transitions, custom styles)
+- js (vanila js)
 
 ## 📌 Notes
 
