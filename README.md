@@ -31,7 +31,7 @@ To view the project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/hedy-codes/product-landing-page.git
 
 # Open index.html in your browser
 ```
