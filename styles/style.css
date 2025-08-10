@@ -491,3 +491,11 @@ body.dark-mode .footer-bottom {
   border-top: 1px solid #555;
   color: #bbb;
 }
+
+.nav-icon {
+  color: #4e3b2c; /* رنگ پیش‌فرض */
+}
+
+body.dark-mode .nav-icon {
+  color: #e0d8c3; /* رنگ مناسب دارک مود */
+}
