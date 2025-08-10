@@ -65,7 +65,7 @@ body {
 
 .nav-links a:hover {
   color: #65482b;
-  animation: glow 0.9s infinite;
+  animation: glow 3s 1;
 }
 
 .hero {
@@ -443,6 +443,14 @@ body.dark-mode .hero::after {
   inset: 0;
   background-color: rgba(0, 0, 0, 0.0001);
   z-index: 0;
+}
+
+body.dark-mode .hero-btn {
+  background-color: #a8d5ba;
+  color: #3e2b1c; /* سبز ملایم */
+}
+body.dark-mode .hero-btn:hover {
+  background-color: #88c3a1;
 }
 
 body.dark-mode .products {
