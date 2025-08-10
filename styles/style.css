@@ -38,14 +38,13 @@ body {
 
 .nav-links a {
   position: relative;
-
   display: flex;
   align-items: center;
   gap: 6px;
   color: #4e3b2c;
   text-decoration: none;
   font-weight: 500;
-  transition: color 0.2s ease;
+  transition: 1s;
 }
 
 .nav-links a::after {
@@ -54,7 +53,7 @@ body {
   left: 0;
   bottom: 0;
   width: 0%;
-  height: 1px;
+  height: 2px;
   background-color: #65482b;
   transition: width 0.4s ease;
 }
@@ -65,7 +64,6 @@ body {
 
 .nav-links a:hover {
   color: #65482b;
-  animation: glow 3s 1;
 }
 
 .hero {
@@ -328,7 +326,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #eab676;
+  background-color: #7b5b44;
   transition: 0.4s;
   border-radius: 34px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
@@ -431,7 +429,7 @@ body.dark-mode .nav-links a::after {
 
 body.dark-mode .hero {
   color: #f0e9dc;
-  background-image: url("/images/bg-dark.png"); /* اگه نداری میتونی همون رو بگذاری */
+  background-image: url("/images/bg.jpg"); /* اگه نداری میتونی همون رو بگذاری */
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -441,7 +439,7 @@ body.dark-mode .hero::after {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.0001);
+  background-color: rgba(0, 0, 0, 0.6);
   z-index: 0;
 }
 
