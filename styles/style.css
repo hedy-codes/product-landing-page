@@ -465,6 +465,7 @@ body.dark-mode .product-card {
 }
 
 body.dark-mode .product-card h3,
+body.dark-mode .product-card p,
 body.dark-mode .price {
   color: #a8d5ba;
 }
