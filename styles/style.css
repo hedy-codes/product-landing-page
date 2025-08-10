@@ -431,7 +431,10 @@ body.dark-mode .nav-links a::after {
 
 body.dark-mode .hero {
   color: #f0e9dc;
-  background-image: url("/images/bg-.jpg"); /* اگه نداری میتونی همون رو بگذاری */
+  background-image: url("/images/bg-dark.png"); /* اگه نداری میتونی همون رو بگذاری */
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
 }
 
 body.dark-mode .products {
