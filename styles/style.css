@@ -437,6 +437,14 @@ body.dark-mode .hero {
   overflow: hidden;
 }
 
+body.dark-mode .hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.0001);
+  z-index: 0;
+}
+
 body.dark-mode .products {
   background-color: #262626;
 }
