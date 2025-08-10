@@ -221,11 +221,10 @@ body {
   font-size: 1.1rem;
   font-weight: bold;
   color: #4e3b2c;
-  animation: glow 1.6s infinite ease-in-out;
 }
 
 .product-card:hover .price {
-  animation: blink-glow 1.6s infinite ease-in-out;
+  animation: glow 1.6s infinite ease-in-out;
 }
 
 .btn-buy {
@@ -308,7 +307,6 @@ body {
   }
 }
 
-/* استایل سوییچ حالت تاریک هماهنگ با تم گیاهی */
 .switch {
   display: inline-block;
   width: 52px;
@@ -409,4 +407,70 @@ input:checked + .slider:before {
   height: 2px;
   background-color: #4e3b2c;
   margin-top: 0.5rem;
+}
+
+/* dark mode css */
+
+/* حالت تاریک */
+body.dark-mode {
+  background-color: #1e1e1e;
+  color: #f0e9dc;
+}
+
+body.dark-mode .navbar {
+  background-color: #2c2c2c;
+}
+
+body.dark-mode .nav-links a {
+  color: #f0e9dc;
+}
+
+body.dark-mode .nav-links a::after {
+  background-color: #a8d5ba; /* سبز ملایم */
+}
+
+body.dark-mode .hero {
+  color: #f0e9dc;
+  background-image: url("/images/bg-.jpg"); /* اگه نداری میتونی همون رو بگذاری */
+}
+
+body.dark-mode .products {
+  background-color: #262626;
+}
+
+body.dark-mode .products h2 {
+  color: #a8d5ba;
+}
+
+body.dark-mode .product-card {
+  background-color: #333;
+  color: #f0e9dc;
+}
+
+body.dark-mode .product-card h3,
+body.dark-mode .price {
+  color: #a8d5ba;
+}
+
+body.dark-mode .btn-buy {
+  background-color: #a8d5ba;
+  color: #1e1e1e;
+}
+
+body.dark-mode .btn-buy:hover {
+  background-color: #88c3a1;
+}
+
+body.dark-mode .footer {
+  background-color: #2c2c2c;
+  color: #f0e9dc;
+}
+
+body.dark-mode .footer-links a {
+  color: #a8d5ba;
+}
+
+body.dark-mode .footer-bottom {
+  border-top: 1px solid #555;
+  color: #bbb;
 }
