@@ -439,7 +439,7 @@ body.dark-mode .hero::after {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 0;
 }
 
@@ -499,4 +499,15 @@ body.dark-mode .footer-bottom {
 
 body.dark-mode .nav-icon {
   color: #e0d8c3; /* رنگ مناسب دارک مود */
+}
+
+body.dark-mode .footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #a8d5ba;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
